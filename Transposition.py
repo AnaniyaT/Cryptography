@@ -48,4 +48,3 @@ key = [2,1,3,6,7,5,4]
 print(transposition.encrypt(text,key))
 encrypted = transposition.encrypt(text,key)
 print(transposition.decrypt(encrypted,key))
-print(__name__)
